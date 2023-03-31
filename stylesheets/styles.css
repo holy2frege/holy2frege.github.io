@@ -1,0 +1,74 @@
+/* author: holy frege
+ * date: Wednesday, March 29, 2023
+ */
+
+
+/* =============================================================================
+   everything
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+
+/* =============================================================================
+   elements
+   ========================================================================== */
+body {
+    width: 100%;
+    height: 100%;
+    font-family:  -apple-system,Inter, sans-serif;
+    font: 13px/1.5 Inter;
+    color: #595959;
+}
+h1{
+    color: #222;
+    margin:0 0 20px;
+}
+p{
+    margin:0 0 20px;
+    line-height: 1.8;
+}
+
+a{
+    color: #39c;
+    text-decoration: none;
+}
+/* =============================================================================
+   selector
+   ========================================================================== */
+.wrapper{
+    margin: 0px 0px 0px 0px;
+    padding-top: 50px;
+    display: flex;
+    height: 700px;
+}
+
+.header {
+    width: 250px;
+    height: 600px;
+    margin-left: 170px;
+    margin-right: 40px;
+
+}
+.header span{
+    color: #a11;
+}
+.header h1{
+    margin-bottom: 0px;
+}
+
+.page {
+    margin-left: 0px;
+    padding-left: 60px;
+    width: 500px;
+    height: 850px;
+    border-left: 1px solid #E3e3e3;    
+}
+
+.footer-wrapper{
+    margin-left: 170px;
+}
+
+.footer{
+
+}
+
