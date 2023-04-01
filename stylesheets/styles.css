@@ -82,8 +82,47 @@ a{
     margin-top: 30px;
     margin-left: 70px;
 }
-.header h3{
-    color: #454;
+.header .titlecontent0 {
+    /* width: 100%; */
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.job span{
+    color: #822;
+}
+.place span{
+    color: #822;
+}
+.plan span{
+    color: #282;
+}
+.programming span{
+    color: #282;
+}
+.editor span{
+    color: #282;    
+}
+.braindump span{
+    color:#448
+}
+.braindump small{
+    color: orange;
+    border-bottom: 1px solid;    
+}
+.book span{
+    color:#448    
+}
+.book small{
+    color: orange;
+    border-bottom: 1px solid;
+}
+.email span{
+    color:#448    
+}
+.email small{
+    color: orange;
+    border-bottom: 1px solid;    
 }
 .header hr{
     width: 270px;
@@ -103,10 +142,11 @@ ul{
 }
 .page {
     margin-left: 0px;
-    padding-left: 60px;
-    width: 500px;
-    height: 800px;
-    border-left: 1px solid #E3e3e3;    
+    padding-left: 100px;
+    width: 600px;
+    height: 900px;
+    border-left: 1px solid #E3e3e3;
+    overflow: auto;
 }
 
 .footer-wrapper{
