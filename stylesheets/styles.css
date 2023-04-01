@@ -45,7 +45,7 @@ a{
 @media (max-width: 1010px) {
     .wrapper>.page{
 	flex: calc(40%);
-	/* width:auto; */
+	margin-right: 50px;
     }
     .footer{
 	margin-top: 800px;
