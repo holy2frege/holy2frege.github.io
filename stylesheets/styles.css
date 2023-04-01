@@ -41,9 +41,16 @@ a{
     flex-wrap: wrap;
     height: 800px;
 }
-
-@media (max-width: 1000px) {
+@media (max-width: 1010px) {
     .wrapper>.page{
+	flex: calc(20%);
+	margin-right: 50px;
+    }
+}
+
+@media (max-width: 700px) {
+    .wrapper>.page{
+	flex: calc(20%);
 	margin-right: 50px;
     }
     .footer{
