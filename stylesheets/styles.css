@@ -8,7 +8,6 @@
    ========================================================================== */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter');
-
 /* =============================================================================
    elements
    ========================================================================== */
@@ -39,44 +38,51 @@ a{
     margin: 0px 0px 0px 0px;
     padding-top: 50px;
     display: flex;
-    height: 700px;
+    height: 800px;
 }
 
 .header {
     display: flex;
     flex-direction: column;
-    width: 250px;
-    height: 600px;
-    margin-left: 70px;
-    margin-right: 40px;
+    width: 400px;
+    height: 800px;
+    margin: 0 0 0 0;
+
 
 }
 .header span{
-    color: #a11;
+    /* color: #a11; */
 }
 .header h1{
     margin-bottom: 0px;
 }
 .header .title{
-    margin-left: 50px;
+    margin-left: 130px;
 
 }
-.header .titlecontent1 {
-    width:200px;
-    margin-top: 40px;
-    margin-left: 30px;
-    height: 300px;
+.header .titlecontent0 {
+    /* width: 100%; */
+    margin-top: 30px;
+    margin-left: 70px;
 }
-.header .titlecontent2 {
-    width:200px;
-    margin-top: 40px;
-    margin-left: 30px;
-    height: 300px;
+.header h3{
+    color: #454;
+}
+.header hr{
+    width: 270px;
+    margin-left: 0px;
+    height: 4px;
+    border-width: 0;
+    background-color:#eef    
+}
+ul{
+    width: 70%;
     border: 1.2px dotted #333;
-    border-radius: 15px;
-    /* background-color: #eefefe; */
+    border-radius: 5px;
     background-color: #f7f7fa;
-
+}
+.title span{
+    color: #a11;
 }
 .page {
     margin-left: 0px;
@@ -87,7 +93,7 @@ a{
 }
 
 .footer-wrapper{
-    margin-left: 100px;
+    margin-left: 80px;
 }
 
 .footer{
