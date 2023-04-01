@@ -43,14 +43,15 @@ a{
 }
 
 @media (max-width: 1010px) {
-    .wrapper> page{
-	flex:calc(50%);
+    .wrapper>.page{
+	flex: calc(40%);
+	/* width:auto; */
     }
     .footer{
 	margin-top: 800px;
     }
 }
-
+    
 .header {
     display: flex;
     flex-direction: column;
