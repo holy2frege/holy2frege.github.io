@@ -38,7 +38,17 @@ a{
     margin: 0px 0px 0px 0px;
     padding-top: 50px;
     display: flex;
+    flex-wrap: wrap;
     height: 800px;
+}
+
+@media (max-width: 1010px) {
+    .wrapper> page{
+	flex:calc(50%);
+    }
+    .footer{
+	margin-top: 800px;
+    }
 }
 
 .header {
@@ -88,7 +98,7 @@ ul{
     margin-left: 0px;
     padding-left: 60px;
     width: 500px;
-    height: 850px;
+    height: 800px;
     border-left: 1px solid #E3e3e3;    
 }
 
