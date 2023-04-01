@@ -42,9 +42,8 @@ a{
     height: 800px;
 }
 
-@media (max-width: 1010px) {
+@media (max-width: 1000px) {
     .wrapper>.page{
-	flex: calc(40%);
 	margin-right: 50px;
     }
     .footer{
