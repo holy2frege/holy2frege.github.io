@@ -43,9 +43,11 @@ a{
 }
 
 .header {
+    display: flex;
+    flex-direction: column;
     width: 250px;
     height: 600px;
-    margin-left: 170px;
+    margin-left: 70px;
     margin-right: 40px;
 
 }
@@ -55,7 +57,27 @@ a{
 .header h1{
     margin-bottom: 0px;
 }
+.header .title{
+    margin-left: 50px;
 
+}
+.header .titlecontent1 {
+    width:200px;
+    margin-top: 40px;
+    margin-left: 30px;
+    height: 300px;
+}
+.header .titlecontent2 {
+    width:200px;
+    margin-top: 40px;
+    margin-left: 30px;
+    height: 300px;
+    border: 1.2px dotted #333;
+    border-radius: 15px;
+    /* background-color: #eefefe; */
+    background-color: #f7f7fa;
+
+}
 .page {
     margin-left: 0px;
     padding-left: 60px;
@@ -65,7 +87,7 @@ a{
 }
 
 .footer-wrapper{
-    margin-left: 170px;
+    margin-left: 100px;
 }
 
 .footer{
