@@ -39,7 +39,7 @@ a{
     padding-top: 50px;
     display: flex;
     flex-wrap: wrap;
-    height: 800px;
+    height: 820px;
 }
 @media (max-width: 1010px) {
     .wrapper>.page{
@@ -90,6 +90,12 @@ a{
 
 .job span{
     color: #822;
+}
+.job small{
+    /* color:#eee3; */
+}
+.job #person{
+    padding-left: 30px;
 }
 .place span{
     color: #822;
@@ -144,7 +150,7 @@ ul{
     margin-left: 0px;
     padding-left: 100px;
     width: 600px;
-    height: 900px;
+    height: 820px;
     border-left: 1px solid #E3e3e3;
     overflow: auto;
 }
@@ -154,6 +160,7 @@ ul{
 }
 
 .footer{
+
 
 }
 
